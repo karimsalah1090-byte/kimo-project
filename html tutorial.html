@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>karim's website</title>
+        <meta name="description" content="my personal webpage">
+        <link rel="stylesheet" href="tutorial.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="main-title">karim mohamed salah</h1>
+        </header>
+              
+        <nav>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#skills">skills</a>
+            <a href="#education">education</a>
+            <a href="#hobbies">hobbies</a>
+            <a href="#favorite-games">games</a>
+            <a href="#projects">projects</a>
+            <a href="#courses">courses</a>           
+            <a href="#contact-me">contact</a>
+        </nav>
+        <main>
+            <div class="photo">
+            <img src="20240526_010516.jpg" title="kimo's pic" width="300" alt="karim mohamed salah">
+            </div>
+
+            <section id="home">
+                <h2>Welcome to my website</h2>
+                <p>My name is karim mohamed salah</p>
+                <button id = "change-name">change-name</button>
+            </section>
+            <section id="about">
+                <h2>about me</h2>
+                <p>I am Karim Mohamed Salah and I am interested in web design and technology.</p>           
+            </section>
+            <section id="skills">
+                <h2>my skills</h2>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>python</li>
+                    <li>Java script</li>
+                </ol>
+            </section>
+            <section id="education">
+                <h2>my education</h2>
+                <h3>modern academy</h3>
+                <p><strong>degree</strong> :good</p>
+                <p><strong>graduation year</strong> :2012</p>
+            </section>
+            <section id="hobbies">
+                <h2>my hobbies</h2>
+                <ol>
+                    <li>reading</li>
+                    <li>music</li>
+                    <li>street walking</li>
+                </ol>
+            </section>
+            <section id="favorite-games">
+                <h2>My favorite games</h2>
+                <ol>
+                    <li class="games">action
+                        <ul>
+                            <li>blade</li>
+                            <li>die hard</li>
+                            <li>crash</li>
+                        </ul>
+                    </li>
+                    <li class="games">adventure
+                        <ul>
+                            <li>crash</li>
+                            <li>hollow knight</li>
+                            <li>cars</li>
+                        </ul>
+                    </li>
+                    <li class="games">horror
+                        <ul>
+                            <li>silent hill</li>
+                            <li>resident evil</li>
+                            <li>horror</li>
+                        </ul>
+                    </li>
+                </ol>
+                <input id ="gameName" type="text" placeholder="game name">
+                <input id="gameRating" type="number" placeholder="game rating">
+                <div id="gamesList"></div>
+                <button id="addGame">add game</button>
+                <button id="clearGames">clear all games</button>
+                <div id ="gamesE">
+                    <button data-id ="1" data-game="hollow knight">game 1</button>
+                    <button data-id ="2" data-game="god of war">game 2</button>
+                    <button data-id ="3" data-game="call of duty">game 3</button>
+                </div>
+                <p id="message"></p>
+            </section>
+            <section id="projects">
+                <h2>my projects 🚀</h2>
+                <div id="flying">
+                    <h3>flying</h3>
+                    <p>project about how to fly</p>
+                    <a href="#">view project</a>
+                    <img src="22090054_10213386703089276_8158300220790144269_n.jpg" alt=flying-project>
+                </div>
+                <div id="dreaming">
+                    <h3>dreaming</h3>
+                    <p>Project about how to achieve your dream</p>
+                    <a href="#">view project</a>
+                    <img src="169192229_10223202082187619_5112819359364683971_n.jpg" alt="dream project">
+                </div>
+                <div id="music">
+                    <h3>music</h3>
+                    <p>project about how to be musician</p>
+                    <a href="#">view project</a>
+                    <img src="0.jpg">
+
+                    <span>NEW</span>
+                </div>
+            </section>
+            <section id="courses">
+                <h2>my courses</h2>
+
+                <div class="courses">
+                    <h3>html</h3>
+                    <p class="completed">completed</p>
+                </div>
+                <div class="courses">
+                    <h3>ICDL</h3>
+                    <p class="completed">completed</p>
+                </div>
+                <div class="courses">
+                    <h3>English</h3>
+                    <p class="completed">completed</p>
+                </div>
+                <div class="courses">
+                    <h3>css</h3>
+                    <p class="progress">in progress</p>
+                </div>
+                <div class="courses">
+                    <h3>python</h3>
+                    <p class="progress">in progress</p>
+                </div>
+            </section>
+
+                 <!-- <table border="1">
+                <thead>
+                    <tr>
+                        <th>courses</th>
+                        <th>name</th>
+                        <th>degree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                         <td>html</td>
+                         <td>karim</td>
+                         <td>good</td>
+                    </tr>
+                    <tr>
+                        <td>python</td>
+                         <td>hossam</td>
+                         <td>good</td>
+                    </tr>
+                    <tr>
+                        <td>css</td>
+                        <td>sabry</td>
+                        <td>nice</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                    <th colspan="2">total</th>
+                    <th>100</th>
+                    </tr>
+                </tfoot>
+                </table> -->
+            <section id="contact-me">
+            <h2>contact me</h2> 
+            
+            <a href="mailto:karimsalah1090@gmail.com"> send me an email</a>
+                
+            
+              
+            <form action="submit" method="post">
+                
+                <div>
+                    <label for="name">name</label>
+                    <input name="name" type="text" id="name" placeholder="enter your name">
+                    <p id="name-preview"></p>
+                    <p id ="name-message"></p>
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input name="password" type="password" id="password"   placeholder="type your password">
+                    <p id ="password-message"></p>
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input name="email" id="email" type="email"  placeholder="enter your e-mail">
+                    <p id="email-message"></p>
+                </div>
+                <div>
+                    <label for="subject">subject</label>
+                    <input name="subject" id="subject" type="text">
+                </div>
+                <div>
+                    <label for="country">country</label>
+                    <select name="country" id="country">
+                        <option value="" disabled selected>choose your country</option>
+                        <option value="usa">usa</option>
+                        <option value="uk">united kingdom</option>
+                        <option value="egypt">egypt</option>
+                        <option value="germany">germany</option>
+                    </select>
+                    <p id = "country-message"></p>
+                </div>
+                <div>
+                    <p>gender</p>
+                    <input name="gender" type="radio" id="male" value="male">
+                    <label for="male">male</label>
+                    <input name="gender" type="radio" id="female" value="female">
+                    <label for="female">female</label>
+                </div>
+                <!-- <div>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">I agree</label>
+                    <input type="checkbox" id="disagree">
+                    <label for="disagree">I disagree</label>
+                </div> -->
+                <div>
+                    <textarea id="message" name="message" rows="10" cols="30" placeholder="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                    
+                </div>
+                <p id="form-message"></p>
+            </form>
+        </main>
+        <P id="total"></P>
+        
+        </section>
+        <footer class="footer">
+            &copy; 2026 karim salah 
+        </footer>
+        <P id="total"></P>
+        <a id="myLink" href="http://google.com">go to google</a>
+        <div id="parent">
+            <button id="child">click me</button>
+        </div>
+        <div class="card">
+            <button id="testButton">delete</button>
+        </div>
+        <script src="script.js"></script>
+        <!-- <script type="module" src="app.js"></script> -->
+    </body>
+</html>
